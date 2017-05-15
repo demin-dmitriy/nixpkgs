@@ -9597,6 +9597,8 @@ with pkgs;
 
   qt5ct = libsForQt5.callPackage ../tools/misc/qt5ct { };
 
+  gtkd = callPackage ../development/libraries/gtkd { };
+
   mkLibsForQt5 = self: with self; {
 
     ### KDE FRAMEWORKS
